@@ -1,0 +1,155 @@
+body {
+  background-color: #0b0627;
+  margin: 0;
+  text-align: center;
+  font-family: "EB Garamond", system-ui;
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 5.625rem;
+  font-family: "Sacramento", system-ui;
+  margin: 50px auto 0 auto;
+  color: #c2d9ff;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: "Merriweather Sans", system-ui;
+  color: #c2d9ff;
+  font-weight: normal;
+  margin-top: 100px; 
+}
+
+h3 {
+  font-family: "Merriweather Sans", system-ui;
+  color: #8e8ffa;
+}
+
+a {
+  color: #8e8ffa;
+  margin:0 20px;
+  font-family: "EB Garamond", system-ui;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color:aliceblue;
+}
+
+.top-container {
+  background-color: #190482;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 0;
+}
+
+.bottom-container {
+  margin-top: 50px;
+  padding: 50px;
+  background-color:#c2d9ff;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.moon {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.star {
+  position: absolute;
+  left: 200px;
+  bottom: 520px;
+}
+
+.mountain {
+  height: 400px;
+  width:auto;
+  position: relative;
+  top: 17px;
+}
+
+.profile {
+  width: 30%;
+  margin :auto;
+  line-height: 2;
+}
+
+hr {
+  width: 7%;
+  text-decoration: none;
+  border:#0b0627;
+  border-top:6px dotted #4a3d88;
+}
+
+.programming {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.programming img {
+  margin:15px auto;
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.watercolor {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.watercolor img {
+  margin:15px auto;
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  line-height:2;
+  width: 30%;
+  margin : 40px auto 60px;
+}
+
+.btn {
+  background: #DCAAFF;
+  background-image: -webkit-linear-gradient(top, #DCAAFF, #3C3DCF);
+  background-image: -moz-linear-gradient(top, #DCAAFF, #3C3DCF);
+  background-image: -ms-linear-gradient(top, #DCAAFF, #3C3DCF);
+  background-image: -o-linear-gradient(top, #DCAAFF, #3C3DCF);
+  background-image: -webkit-gradient(to bottom, #DCAAFF, #3C3DCF);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: "Merriweather Sans", system-ui;
+  font-size:18px;
+  font-weight: 100;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #4a3d88;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
